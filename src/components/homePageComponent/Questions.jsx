@@ -9,7 +9,7 @@ const Questions = () => {
         <h3 className="head-two">Frequent Ask Questions </h3>
       </div>
 
-      <div className="flex flex-col gap-3 py-8  p-6 rounded-lg">
+      <div className="flex flex-col gap-3 py-8  md:p-6 rounded-lg">
       {Array(5).fill().map((_, index) => (
         <div key={index} className="h-fit rounded-md flex justify-between bg-white shadow-md items-center px-6 py-4 cursor-pointer relative overflow-hidden">
           <div className="absolute left-0 top-0 h-full w-1.5 bg-gradient-to-b from-[#FFA229] to-[#1C4670]"/>

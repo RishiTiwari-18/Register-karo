@@ -24,14 +24,14 @@ const OurClientBottom = () => {
     },
   ];
   return (
-    <div className="padding py-14 bg-custom-orange ">
-      <ul className="flex gap-4 w-full flex-wrap">
+    <div className="padding py-14 bg-custom-orange">
+      <ul className="flex w-full flex-wrap md:justify-center md:gap-10">
         {clientData.map((item, index) => (
-          <li key={index} className="flex items-center justify-between">
-            <div className={`h-16 w-16 rounded-full  z-50 p-3 ${item.color}`}>
-              <img className="h-full w-full" src={item.icon} alt="" />
+          <li key={index} className="flex items-center gap-4 p-4">
+            <div className="h-12 w-12 rounded-full p-3" style={{ backgroundColor: item.color }}>
+              <img className="h-full w-full" src={item.icon} alt={item.description} />
             </div>
-            <p>{item.description}</p>
+            <p className="font-medium">{item.description}</p>
           </li>
         ))}
       </ul>

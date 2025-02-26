@@ -57,7 +57,7 @@ const Why = () => {
         
         {whyData.slice(2).map((item, index) => (
           <div key={index} className="p-6 rounded-lg text-center" style={{ backgroundColor: item.color }}>
-            <img src={item.icon} alt={item.heading} className="w-8 h-8 m-auto mb-4"/>
+            <img src={item.icon} alt={item.heading} className="w-8 h-8 m-auto mb-6"/>
             <h3 className="text-xl font-semibold mb-2">{item.heading}</h3>
             <p className="text-gray-600">{item.description}</p>
           </div>

@@ -3,8 +3,8 @@ import { FaApple, FaGooglePlay } from 'react-icons/fa'
 
 const ManageService = () => {
   return (
-    <div className='padding flex justify-between bg-custom-blue'>
-      <div className="w-[45%] text-white space-y-8 py-14">
+    <div className='padding flex justify-between max-md:flex-col bg-custom-blue'>
+      <div className="md:w-[45%] text-white space-y-8 py-14">
         <h3 className='head-two'>Manage Your Services by your
         Mobile Phone</h3>
         <p className='text-zinc-400'>Download our app to manage and track your services. Our app enables you to stay in touch with our experts and aids you in tracking your progress. </p>
@@ -17,7 +17,7 @@ const ManageService = () => {
           </div>
         </div>
       </div>
-      <div className="w-1/2 h-[60vh] py-4 overflow-hidden px-4">
+      <div className="md:w-1/2 md:h-[60vh] py-4 overflow-hidden px-4">
         <img src="./public/images/mobile.png" alt="" />
       </div>
     </div>

@@ -24,7 +24,7 @@ const Services = () => {
       description: "Turn your ideas into modern products with our design experts."
     },
     {
-      icon: "📝./public/images/services-icon5.png",
+      icon: "./public/images/services-icon5.png",
       heading: "Payroll Services",
       description: "Expand your business across the globe with minimal effort."
     },
@@ -41,8 +41,14 @@ const Services = () => {
             <h4 className='yellow-head'>WELCOME TO REGISTERKARO.IN</h4>
             <h3 className='head-two'>Explore Our Services</h3>
         </div>
-        <div className="grid grid-cols-3">
-            <div className="p-6 text-center space-y-3"></div>
+        <div className="grid lg:px-14 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 py-10">
+            {servicesData.map((service, index) => (
+                <div key={index} className="p-6 text-center space-y-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                    <img src={service.icon} alt={service.heading} className="w-16 h-16 mx-auto" />
+                    <h4 className="text-xl font-bold">{service.heading}</h4>
+                    <p className="text-gray-600">{service.description}</p>
+                </div>
+            ))}
         </div>
     </div>
   )

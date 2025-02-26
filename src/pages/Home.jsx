@@ -11,22 +11,30 @@ import Blogs from '../components/homePageComponent/Blogs'
 import Questions from '../components/homePageComponent/Questions'
 import ManageService from '../components/homePageComponent/ManageService'
 import SomeNumbers from '../components/homePageComponent/SomeNumbers'
+import Email from '../components/homePageComponent/Email'
+import Footer from '../components/homePageComponent/Footer'
+import Testimonials from '../components/homePageComponent/Testimonials'
+import FooterTop from '../components/homePageComponent/FooterTop'
 
 const Home = () => {
   return (
    <>
     <Hero/>
     <TrustedBy/>
-    {/* <Services/> */}
+    <Services/>
     <About/>
     <Why/>
     <Introduction/>
     <OurClients/>
-    {/* <OurClientBottom/> */}
+    <OurClientBottom/>
     <Blogs/>
+    <Testimonials/>
     <Questions/>
     <ManageService/>
     <SomeNumbers/>
+    <Email/>
+    <FooterTop/>
+    <Footer/>
    </>
   )
 }

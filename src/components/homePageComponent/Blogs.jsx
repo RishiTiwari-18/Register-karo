@@ -57,7 +57,7 @@ const Blogs = () => {
 
       {/* Rendered Cards */}
 
-      <div className="grid grid-cols-3 py-16 gap-8">
+      <div className="grid xl:grid-cols-3 lg:grid-cols-2 py-16 gap-8">
         {blogData.map((item, index) => (
           <div key={index}>
             <div className="relative aspect-video">
