@@ -29,7 +29,7 @@ const Testimonials = () => {
                   Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure sint amet occaecat cupidatat non proident ea commodo consequat aute irure sint amet occaecat cupidatat non proident 
                 </p>
                 <div className="flex items-center gap-4 mb-6">
-                  <img src="./public/images/profile.png" alt="User" className="w-16 h-16 rounded-full"/>
+                  <img loading='lazy' src="/images/profile.png" alt="User" className="w-16 h-16 rounded-full"/>
                   <div>
                     <h4 className="font-semibold">John Doe</h4>
                     <p className="text-sm text-gray-500">CEO, Company Inc.</p>

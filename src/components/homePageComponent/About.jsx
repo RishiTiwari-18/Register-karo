@@ -26,7 +26,7 @@ const About = () => {
       </div>
       <div className="lg:w-[45%]">
         <div className="">
-            <img className="h-full w-full object-cover" src="./public/images/about-img.png" alt="" />
+            <img loading="lazy" className="h-full w-full object-cover" src="/images/about-img.png" alt="" />
         </div>
       </div>
     </div>

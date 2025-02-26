@@ -3,22 +3,22 @@ import React from "react";
 const OurClientBottom = () => {
   const clientData = [
     {
-      icon: "./public/images/client-icon1.png",
+      icon: "/images/client-icon1.png",
       color: "#EB5757",
       description: "Fill up Application Form",
     },
     {
-      icon: "./public/images/client-icon2.png",
+      icon: "/images/client-icon2.png",
       color: "#27AE60",
       description: "Make Online Payment",
     },
     {
-      icon: "./public/images/client-icon3.png",
+      icon: "/images/client-icon3.png",
       color: "#F2994A",
       description: "Executive will Process Application",
     },
     {
-      icon: "./public/images/client-icon4.png",
+      icon: "/images/client-icon4.png",
       color: "#828282",
       description: "Get Confirm Mail",
     },
@@ -29,7 +29,7 @@ const OurClientBottom = () => {
         {clientData.map((item, index) => (
           <li key={index} className="flex items-center gap-4 p-4">
             <div className="h-12 w-12 rounded-full p-3" style={{ backgroundColor: item.color }}>
-              <img className="h-full w-full" src={item.icon} alt={item.description} />
+              <img loading="lazy" className="h-full w-full" src={item.icon} alt={item.description} />
             </div>
             <p className="font-medium">{item.description}</p>
           </li>

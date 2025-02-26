@@ -7,36 +7,41 @@ const TrustedBy = () => {
       <ul className="flex flex-wrap justify-center items-center gap-8 md:gap-14">
         <li className="h-4">
           <img
+          loading="lazy"
             className="h-full w-full object-cover"
-            src="./public/images/oracle.png"
+            src="/images/oracle.png"
             alt=""
           />
         </li>
         <li className=" w-44">
           <img
             className="h-full w-full object-contain"
-            src="./public/images/morpheus.png"
+            loading="lazy"
+            src="/images/morpheus.png"
             alt=""
           />
         </li>
         <li className="h-4">
           <img
             className="h-full w-full object-contain"
-            src="./public/images/samsung.png"
+            loading="lazy"
+            src="/images/samsung.png"
             alt=""
           />
         </li>
         <li className="h-4">
           <img
             className="h-full w-full object-contain"
-            src="./public/images/monday.png"
+            loading="lazy"
+            src="/images/monday.png"
             alt=""
           />
         </li>
         <li className="h-4">
           <img
             className="h-full w-full object-contain"
-            src="./public/images/segment.png"
+            loading="lazy"
+            src="/images/segment.png"
             alt=""
           />
         </li>

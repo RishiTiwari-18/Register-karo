@@ -7,8 +7,8 @@ const Introduction = () => {
             <h2 className='head-two'>0ur Video Introductions</h2>
             <p className='text-zinc-400'>Velit purus egestas tellus phasellus. Mattis eget sed faucibus magna vulputate pellentesque a diam tincidunt apis dui.</p>
             <div className="flex gap-3">
-                <div className="h-16 w-16">
-                    <img className='h-full w-full object-contain' src="./public/images/intro-icon1.png" alt="" />
+                <div className=" h-32 w-32  md:h-16 md:w-16">
+                    <img loading='lazy' className='h-full w-full object-contain' src="./public/images/intro-icon1.png" alt="" />
                 </div>
                 <div className="space-y-1">
                     <h4 className='text-lg font-semibold'>Explore ideas together</h4>
@@ -17,8 +17,8 @@ const Introduction = () => {
             </div>
 
             <div className="flex gap-3">
-                <div className="h-16 w-16">
-                    <img className='h-full w-full object-contain' src="./public/images/intro-icon2.png" alt="" />
+                <div className=" h-32 w-32  md:h-16 md:w-16">
+                    <img loading='lazy' className='h-full w-full object-contain' src="/images/intro-icon2.png" alt="" />
                 </div>
                 <div className="space-y-1">
                     <h4 className='text-lg font-semibold'>Bring those ideas to life</h4>
@@ -28,7 +28,7 @@ const Introduction = () => {
         </div>
         <div className="lg:w-1/2 ">
         <div className="relative lg:aspect-video ">
-        <img className='h-full w-full object-contain' src="./public/images/intro-video.png" alt="" />
+        <img loading='lazy' className='h-full w-full object-contain' src="/images/intro-video.png" alt="" />
         </div>
         </div>
     </div>

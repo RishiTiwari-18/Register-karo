@@ -18,7 +18,7 @@ const ManageService = () => {
         </div>
       </div>
       <div className="md:w-1/2 md:h-[60vh] py-4 overflow-hidden px-4">
-        <img src="./public/images/mobile.png" alt="" />
+        <img loading='lazy' src="/images/mobile.png" alt="" />
       </div>
     </div>
   )
