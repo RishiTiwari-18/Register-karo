@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply px-5 py-2 rounded-md text-white font-medium;
+}
+
+.padding {
+  @apply px-3 md:px-16;
+}
+
+.hero-tags {
+  @apply   px-8 py-3 shadow-lg rounded-l-md font-medium bg-white text-black ;
+}
+
+.yellow-head {
+  @apply   text-lg text-custom-orange ;
+}
+.head-two {
+  @apply   text-4xl font-semibold ;
+}
+
+
+b{
+  font-weight: 600;
+  color: #595c62;
+}
+
+
